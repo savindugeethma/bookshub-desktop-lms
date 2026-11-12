@@ -1,0 +1,48 @@
+# ==============================================================================
+# Git Ignore Configuration - NexsussAPI LMS
+# ==============================================================================
+
+# Compiled Java class files
+*.class
+
+# NetBeans & Apache Ant build outputs
+build/
+nbbuild/
+dist/
+nbdist/
+
+# NetBeans user-specific and private configuration
+nbproject/private/
+
+# Generated runtime logs and locks
+*.log
+*.log.*
+*.lck
+
+# Generated runtime reports and exports
+report.pdf
+*.pdf
+
+# Runtime database backup dumps (preserving schema.sql)
+lms_db_backup.sql
+*.dump.sql
+!database/schema.sql
+
+# Java Crash Dumps
+hs_err_pid*
+replay_pid*
+
+# Other IDE configurations (IntelliJ IDEA, Eclipse, VS Code)
+.idea/
+*.iml
+*.iws
+out/
+.classpath
+.project
+.settings/
+.vscode/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+desktop.ini
